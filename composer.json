@@ -1,0 +1,22 @@
+{
+    "name": "filipeclemente/u-sendit-sdk",
+    "license": "MIT",
+    "description": "U-SendIt API SDK",
+    "autoload": {
+        "psr-4": {
+            "Filipeclemente\\USendItSdk\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Filipe Clemente",
+            "email": "dev@filipeclemente.pt"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "ext-simplexml": "*",
+        "ext-mbstring": "*"
+    }
+}
