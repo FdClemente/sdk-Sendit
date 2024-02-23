@@ -1,13 +1,11 @@
 {
     "name": "filipeclemente/u-sendit-sdk",
-    "license": "MIT",
     "description": "U-SendIt API SDK",
     "autoload": {
         "psr-4": {
             "Filipeclemente\\USendItSdk\\": "src/"
         }
     },
-    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Filipe Clemente",

@@ -6,7 +6,7 @@ class SmsResponse
 {
     use ResponseTrait;
 
-    protected $scheduleStatus, $scheduleMessage,
+    protected string $scheduleStatus, $scheduleMessage,
         $eventId, $importStatus,
         $partnerEventId, $totalScheduledSMS,
         $totalRecipients, $acceptedRecipients,

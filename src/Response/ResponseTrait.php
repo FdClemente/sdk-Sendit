@@ -6,7 +6,7 @@ use GuzzleHttp\Psr7\Response;
 
 trait ResponseTrait
 {
-    protected $scheduleStatus, $scheduleMessage;
+    protected string $scheduleStatus, $scheduleMessage;
 
     public function __construct($response = null)
     {
